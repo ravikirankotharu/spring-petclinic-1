@@ -4,4 +4,5 @@ node {
     }
     stage('maven') {
     sh label: '', script: 'mvn package'
-
+    }
+   }
